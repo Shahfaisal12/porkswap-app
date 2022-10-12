@@ -1,26 +1,11 @@
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-
-
 const Header = () => {
-
-  const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= 80){
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
-  };
-  
-  window.addEventListener('scroll', changeNavbarColor);
-
   return (
     <div className="header-section">
-        <nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light" id="navbar">
           <div className="container">
             <Link className="navbar-brand" to="/">
               <img src="https://porkswap.finance/assets/images/logo.png" width="190" className='img-fluid' alt="" />
