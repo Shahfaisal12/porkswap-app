@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
@@ -88,13 +88,8 @@ const data = {
 
 const styles = {
   rowTitleTextSize: '20px',
-  // rowTitleFontWeight: 'bold',
-  // bgColor: 'white',
   titleTextColor: "black",
-  // titleFontWeight: "bold",
   rowTitleColor: "black",
-  // rowContentColor: 'grey',
-  // arrowColor: "red",
 };
 
 const config = {
@@ -104,6 +99,33 @@ const config = {
 };
 
 const Faqs = () => {
+
+
+
+  ////////////////   EXPAND FAQS   ////////////////////////////
+  
+  const [rows, setRowsOption] = useState(null);
+
+  useEffect(() => {
+    if (rows) {
+      setTimeout(() => {
+        rows[0].expand();
+      }, 2500);
+
+      setTimeout(() => {
+        rows[0].close();
+      }, 555555000);
+
+      setTimeout(() => {
+        rows[0].scrollIntoView();
+        // rows[0].scrollIntoView(true);
+      }, 10000);
+    }
+  }, [rows]);
+
+  /////////////////////////////////////////////////////
+
+
   return (
     <div className='faq-section py-5'>
       <div className="container">
@@ -115,6 +137,7 @@ const Faqs = () => {
             data={data}
             styles={styles}
             config={config}
+            getRowOptions={setRowsOption}
           />
         </div>
 

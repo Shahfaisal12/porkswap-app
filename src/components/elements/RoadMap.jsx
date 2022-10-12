@@ -17,7 +17,7 @@ const RoadMap = () => {
                     <div className="col-md-8 col-12">
                         <img src="https://porkswap.finance/assets/images/gov.png" className='img-fluid' alt="" />
                     </div>
-                    <div className="col-md-4 col-12">
+                    <div className="col-md-4 col-12 mt-5 mt-md-0">
                         <h3 className='fw-bold mb-4 text-center'>Governance Platform</h3>
                         <div className="d-flex justify-content-center">
                             <button className='btn btn-warning fw-bold'>Launched, Start Voting Now</button>

@@ -15,9 +15,9 @@ const Hero = () => {
               </div>
               <hr color="white" />
               <div className="d-flex flex-wrap mt-3">
-                <div className="btn btn-danger px-4">Earn PSWAP</div>
-                <div className="btn btn-danger px-4 mx-2">Trade on PCS</div>
-                <div className="btn btn-danger px-4">Governance</div>
+                <div className="btn btn-danger px-4 mb-2 mb-md-0">Earn PSWAP</div>
+                <div className="btn btn-danger px-4 mb-2 mb-md-0 mx-2">Trade on PCS</div>
+                <div className="btn btn-danger px-4 mb-2 mb-md-0">Governance</div>
               </div>
             </div>
           </div>

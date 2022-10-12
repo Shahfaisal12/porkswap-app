@@ -31,7 +31,7 @@ const Utilities = () => {
                         cardData.map((cardItem) => {
 
                             return (
-                                <div className="col-md-4 col-12" id='card-list' key={cardItem.id}>
+                                <div className="col-md-4 col-12 mt-3 mt-md-0" id='card-list' key={cardItem.id}>
                                     <div className="card shadow-sm d-block justify-content-center p-3 pb-5 h-100 border-0" >
                                         <div className="">
                                             <img src={cardItem.image} alt="..." width="80px" />

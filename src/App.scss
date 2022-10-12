@@ -11,6 +11,14 @@
   }
 }
 
+.navbar{
+    background-color: transparent;
+}
+  
+.navbar.colorChange{
+    background-color: #000;
+}
+
 ///////////////////////////////////   HERO SECTION       /////////////////////////////////
 
 .hero-section {
@@ -140,23 +148,22 @@
   background-size: cover;
 }
 
-.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
-  border: none !important;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
-}
 .styles_faq-row-wrapper__3vA1D {
   background-color: #f4f7fd !important;
-}
-
-.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
-  padding: 20px;
-  background-color: #ffffff;
-  margin-bottom: 20px;
+  
+  .styles_row-body__1NvUo  .styles_faq-row__2YF3c {
+    border: none !important;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 0px 8px;
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 20px;
+  }
 }
 
 .row-title-text {
   font-weight: bold;
+  font-size: 1rem;
 }
 
 //////////////////////////  FOOTER SECTION  ///////////////////////////////@at-root

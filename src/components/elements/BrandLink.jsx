@@ -10,16 +10,16 @@ const BrandLink = () => {
                     </div>
                     <div className="row pt-4">
                         <div className="col-md-3 col-6">
-                            <a href="/" ><img className='img-fluid' width="160px" src="https://porkswap.finance/assets/images/featured/02246f50-3412-11eb-bfdd-de89f8b3b8b8.png" alt="" /></a>
+                            <a href="/"><img className='img-fluid mt-3 mt-md-0' width="160px" src="https://porkswap.finance/assets/images/featured/02246f50-3412-11eb-bfdd-de89f8b3b8b8.png" alt="" /></a>
                         </div>
                         <div className="col-md-3 col-6">
-                            <a href="/" ><img className='img-fluid' width="160px" src="https://porkswap.finance/assets/images/featured/logo-bloomberg.svg" alt="" /></a>
+                            <a href="/"><img className='img-fluid mt-3 mt-md-0' width="160px" src="https://porkswap.finance/assets/images/featured/logo-bloomberg.svg" alt="" /></a>
                         </div>
                         <div className="col-md-3 col-6">
-                            <a href="/" ><img className='img-fluid' width="160px" src="https://porkswap.finance/assets/images/featured/logo-benzinga.webp" alt="" /></a>
+                            <a href="/"><img className='img-fluid mt-3 mt-md-0' width="160px" src="https://porkswap.finance/assets/images/featured/logo-benzinga.webp" alt="" /></a>
                         </div>
                         <div className="col-md-3 col-6">
-                            <a href="/" ><img className='img-fluid' width="160px" src="https://porkswap.finance/assets/images/featured/news-btc.png" alt="" /></a>
+                            <a href="/"><img className='img-fluid mt-3 mt-md-0' width="160px" src="https://porkswap.finance/assets/images/featured/news-btc.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
