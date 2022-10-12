@@ -1,9 +1,14 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
+// import Particle from "react-particles-js";
+// import particlesConfig from "./assests/particlesConfig.json";
+
+
 
 const Hero = () => {
   return (
-    <div className="hero-section py-5">
+    <div className="hero-section py-5 position-relative">
+      {/* <Particle params={particlesConfig} className="App-particles__container" /> */}
       <div className="container">
         <div className="row pt-5">
           <div className="col-md-6 col-12">
