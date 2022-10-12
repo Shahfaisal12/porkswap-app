@@ -42,8 +42,8 @@ const Cards = () => {
                         cardData.map((cardItem) => {
 
                             return (
-                                <div className="col-md-4 col-12" id='card-list' key={cardItem.id}>
-                                    <div className="card mycard d-block justify-content-center py-5 border-0" > {/* style={{width: '18rem'}} */}
+                                <div className="mycard col-md-4 col-12" id='card-list' key={cardItem.id}>
+                                    <div className="card d-block justify-content-center py-5 border-0" > {/* style={{width: '18rem'}} */}
                                         <div className="d-flex justify-content-center">
                                             <img src={cardItem.image} alt="..." width="80px" />
                                         </div>

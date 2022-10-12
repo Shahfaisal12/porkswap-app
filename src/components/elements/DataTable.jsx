@@ -42,17 +42,17 @@ const rows = [
 
   },
   {
-    name: 'Gas Fees',
-    uniswap: <TiTick className="fs-3 text-success" />,
-    swap: <TiTick className="fs-3 text-success" />,
-    pork: <TiTick className="fs-3 text-success" />
+    name: <p>Gas Fees</p>,
+    uniswap: <p className='text-danger mb-0'>$71.53</p>,
+    swap: <p className='text-danger mb-0'>$0.42</p>,
+    pork: <p className='text-danger mb-0'>$0.42</p>
 
   },
   {
     name: 'Inflationary',
     uniswap: <ImCross className="text-success" />,
     swap: <ImCross className="text-success" />,
-    pork: <TiTick className="fs-3 text-danger" />
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
