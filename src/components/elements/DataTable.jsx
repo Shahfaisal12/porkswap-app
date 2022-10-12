@@ -8,65 +8,65 @@ const rows = [
 
   {
     name: 'Automated Market Maker',
-    uniswap: <TiTick />,
-    swap: <TiTick />,
-    pork: <TiTick />
+    uniswap: <TiTick className="fs-3 text-success" />,
+    swap: <TiTick className="fs-3 text-success" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Spot Trading',
-    uniswap: <TiTick />,
-    swap: <TiTick />,
-    pork: <TiTick />
+    uniswap: <TiTick className="fs-3 text-success" />,
+    swap: <TiTick className="fs-3 text-success" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Futures Trading',
-    uniswap: <ImCross />,
-    swap: <ImCross />,
-    pork: <TiTick />
+    uniswap: <ImCross className="text-danger" />,
+    swap: <ImCross className="text-danger" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Governance',
-    uniswap: <TiTick />,
-    swap: <TiTick />,
-    pork: <TiTick />
+    uniswap: <TiTick className="fs-3 text-success" />,
+    swap: <TiTick className="fs-3 text-success" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Leveraged',
-    uniswap: <ImCross />,
-    swap: <ImCross />,
-    pork: <TiTick />
+    uniswap: <ImCross  className="text-danger" />,
+    swap: <ImCross  className="text-danger"  />,
+    pork: <TiTick className="fs-3 text-success"  />
 
   },
   {
     name: 'Gas Fees',
-    uniswap: <TiTick />,
-    swap: <TiTick />,
-    pork: <TiTick />
+    uniswap: <TiTick className="fs-3 text-success" />,
+    swap: <TiTick className="fs-3 text-success" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Inflationary',
-    uniswap: <TiTick />,
-    swap: <TiTick />,
-    pork: <TiTick />
+    uniswap: <ImCross className="text-success" />,
+    swap: <ImCross className="text-success" />,
+    pork: <TiTick className="fs-3 text-danger" />
 
   },
   {
     name: 'Deflationary',
-    uniswap: <ImCross />,
-    swap: <ImCross />,
-    pork: <TiTick />
+    uniswap: <ImCross  className="text-danger" />,
+    swap: <ImCross  className="text-danger" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
   {
     name: 'Fixed Supply',
-    uniswap: <TiTick />,
-    swap: <ImCross />,
-    pork: <TiTick />
+    uniswap: <TiTick className="fs-3 text-success" />,
+    swap: <ImCross  className="text-danger" />,
+    pork: <TiTick className="fs-3 text-success" />
 
   },
 ];
@@ -74,7 +74,7 @@ const rows = [
 const DataTable = () => {
   return (
     <>
-      <table class="table table-striped">
+      <table class="table table-striped table-hover">
         <thead>
           <tr>
             <th scope="col"></th>
