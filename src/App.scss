@@ -57,6 +57,35 @@
 
 ///////////////////////////////   TOKEN SECTION  /////////////////////////
 
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+
 .token-distribution-section {
   background-image: url("https://porkswap.finance/assets/images/bgs/Frame-13-3.png");
   background-size: cover;
@@ -71,16 +100,15 @@
     background-repeat: no-repeat;
     max-width: 73.125rem;
     margin: 0 auto 2.5rem;
-    ::before {
+   &::before {
       background-image: url("https://porkswap.finance/assets/images/bgs/token-hover.png");
       content: "";
       position: absolute;
       width: 100%;
       height: 100%;
       background-size: contain;
-      background-position: 50%;
+      background-position: 12%;
       background-repeat: no-repeat;
-      z-index: -1;
     }
   }
 
@@ -88,6 +116,16 @@
     position: absolute;
     color: #424242;
     width: 10.9375rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 6.125rem;
+    margin-left: -5.1rem;
+    margin-top: -4.5rem;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    animation: myAnim 7s linear 0s infinite normal forwards;
   }
 
   .token-image-shadow {
@@ -99,14 +137,36 @@
     margin-left: -1.5625rem;
     border-radius: 50%;
     background-color: #e5d7e5;
-    animation: shadowBounce 2s ease-in-out infinite;
+    animation: shadowBounce 2s ease-in-out infinite
   }
 
   .token-image-info {
     position: absolute;
     color: #424242;
     width: 10.9375rem;
+    
   }
+  .token-image-info:nth-of-type(3){
+    bottom: 50px;
+    left: -2%;
+
+  }
+  .token-image-info:nth-of-type(4) {
+    left: 10%;
+    margin-top: -1.0625rem;
+    top: 0;
+}
+
+.token-image-info:nth-of-type(5) {
+    right: 10%;
+    top: 0;
+    margin-top: -1.0625rem;
+}
+.token-image-info:nth-of-type(6) {
+    bottom: 100px;
+    right: -2%;
+}
+
 }
 
 /////////////////////////////    PLATER FRORM SECTION       ////////////////////////////////@at-root
