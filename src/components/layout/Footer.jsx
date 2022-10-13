@@ -44,7 +44,7 @@ const Footer = () => {
                   </a>
                 </div> 
                 
-                <div className="row">
+                <div className="row px-0">
                   <a href="/" className="d-flex justify-content-end text-decoration-none text-white mt-1">exchange@porkswap.finance</a>
                 </div>
              </div>

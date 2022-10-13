@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <div className="hero-section py-5 position-relative">
-      <div className="particals position-absolute">
+      <div className="particals position-absolute d-none d-md-block">
 
         <Particles
           id="tsparticles"
