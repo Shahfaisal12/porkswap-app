@@ -5,18 +5,18 @@
 .header-section {
   ul li {
     a {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       font-weight: 600;
     }
   }
 }
 
-.navbar{
-    background-color: transparent;
+.navbar {
+  background-color: transparent;
 }
-  
-.navbar.colorChange{
-    background-color: #000;
+
+.navbar.colorChange {
+  background-color: #000;
 }
 
 ///////////////////////////////////   HERO SECTION       /////////////////////////////////
@@ -30,22 +30,19 @@
 //////////////////////////////   CARD SECTIONS        /////////////////////////////////////////////////////
 
 .cards-section {
+  background-image: url("https://porkswap.finance/assets/images/bgs/Section-31.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
-    background-image: url('https://porkswap.finance/assets/images/bgs/Section-31.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-
-      .mycard:nth-child(even)  {
-          box-shadow: 0 8px 40px 0 rgba(0,0,0,10%)!important;
-          border-radius: 3px;
-          padding: 0;
+  .mycard:nth-child(even) {
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 10%) !important;
+    border-radius: 3px;
+    padding: 0;
   }
   .card:nth-child(odd) {
     background-color: transparent;
     z-index: 12345 !important;
   }
-
-
 }
 
 ////////////////////////////   HOW TO WORK SECTION   //////////////////////////////////
@@ -58,33 +55,32 @@
 ///////////////////////////////   TOKEN SECTION  /////////////////////////
 
 @keyframes myAnim {
-	0%,
-	100% {
-		transform: translateY(0);
-	}
+  0%,
+  100% {
+    transform: translateY(0);
+  }
 
-	10%,
-	30%,
-	50%,
-	70% {
-		transform: translateY(-8px);
-	}
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
 
-	20%,
-	40%,
-	60% {
-		transform: translateY(8px);
-	}
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
 
-	80% {
-		transform: translateY(6.4px);
-	}
+  80% {
+    transform: translateY(6.4px);
+  }
 
-	90% {
-		transform: translateY(-6.4px);
-	}
+  90% {
+    transform: translateY(-6.4px);
+  }
 }
-
 
 .token-distribution-section {
   background-image: url("https://porkswap.finance/assets/images/bgs/Frame-13-3.png");
@@ -100,7 +96,7 @@
     background-repeat: no-repeat;
     max-width: 73.125rem;
     margin: 0 auto 2.5rem;
-   &::before {
+    &::before {
       background-image: url("https://porkswap.finance/assets/images/bgs/token-hover.png");
       content: "";
       position: absolute;
@@ -137,36 +133,33 @@
     margin-left: -1.5625rem;
     border-radius: 50%;
     background-color: #e5d7e5;
-    animation: shadowBounce 2s ease-in-out infinite
+    animation: shadowBounce 2s ease-in-out infinite;
   }
 
   .token-image-info {
     position: absolute;
     color: #424242;
     width: 10.9375rem;
-    
   }
-  .token-image-info:nth-of-type(3){
+  .token-image-info:nth-of-type(3) {
     bottom: 50px;
     left: -2%;
-
   }
   .token-image-info:nth-of-type(4) {
     left: 10%;
     margin-top: -1.0625rem;
     top: 0;
-}
+  }
 
-.token-image-info:nth-of-type(5) {
+  .token-image-info:nth-of-type(5) {
     right: 10%;
     top: 0;
     margin-top: -1.0625rem;
-}
-.token-image-info:nth-of-type(6) {
+  }
+  .token-image-info:nth-of-type(6) {
     bottom: 100px;
     right: -2%;
-}
-
+  }
 }
 
 /////////////////////////////    PLATER FRORM SECTION       ////////////////////////////////@at-root
@@ -210,14 +203,14 @@
 
 .styles_faq-row-wrapper__3vA1D {
   background-color: #f4f7fd !important;
-  
-  .styles_row-body__1NvUo  .styles_faq-row__2YF3c {
+
+  .styles_row-body__1NvUo .styles_faq-row__2YF3c {
     border: none !important;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
       rgba(17, 17, 26, 0.1) 0px 0px 8px;
-      background-color: #ffffff;
-      margin-bottom: 20px;
-      padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
   }
 }
 

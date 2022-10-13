@@ -25,23 +25,29 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-6 col-12">
-              <div class="footer-menu float-right d-flex align-items-center">
-                  <a href="/" className="fw-bold text-decoration-none text-white">
+             <div className="row mt-2">
+             <div class="footer-menu d-flex align-items-center justify-content-end mb-3">
+                  <a href="/" className="fw-bold text-decoration-none text-white mx-2">
                     <TbBrandGmail className="fs-3 " />
                   </a>
-                  <a href="/" className="fw-bold text-decoration-none text-white">
+                  <a href="/" className="fw-bold text-decoration-none text-white mx-2">
                     <BsTwitter className="fs-3 " />
                   </a>
-                  <a href="/" className="text-white">
+                  <a href="/" className="text-white mx-2">
                     <FaFacebookF className="fs-3 " />
                   </a>
-                  <a href="/" className="text-white">
+                  <a href="/" className="text-white mx-2">
                     <ImYoutube2 className="fs-3 " />
                   </a>
-                  <a href="/" className="text-white">
+                  <a href="/" className="text-white mx-2">
                     <RiSendPlaneFill className="fs-3 " />
                   </a>
+                </div> 
+                
+                <div className="row">
+                  <a href="/" className="d-flex justify-content-end text-decoration-none text-white mt-1">exchange@porkswap.finance</a>
                 </div>
+             </div>
               </div>
 
           </div>
