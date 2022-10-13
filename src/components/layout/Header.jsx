@@ -1,11 +1,28 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
+
+
 const Header = () => {
+  
+// const [navbar, setNavebar] = useState(false);
+
+// const changeBackground = () => {
+//   if(window.screenY>=80){
+//     setNavebar(true);
+//   }else{
+//     setNavebar(false);
+//   }
+
+// };
+// window.addEventListener('scroll', changeBackground);
+
+
   return (
     <div className="header-section">
-        <nav className="navbar navbar-expand-lg fixed-top navbar-light" id="navbar">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light" id="navbar"> {/* {navbar ? 'navbar active' : navbar } */}
           <div className="container">
             <Link className="navbar-brand" to="/">
               <img src="https://porkswap.finance/assets/images/logo.png" width="190" className='img-fluid' alt="" />

@@ -42,7 +42,7 @@ const rows = [
 
   },
   {
-    name: <p>Gas Fees</p>,
+    name: <p className='mb-0'>Gas Fees</p>,
     uniswap: <p className='text-danger mb-0'>$71.53</p>,
     swap: <p className='text-danger mb-0'>$0.42</p>,
     pork: <p className='text-danger mb-0'>$0.42</p>
