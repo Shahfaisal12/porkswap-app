@@ -4,14 +4,12 @@ import Particals from "../untils/Particals";
 
 const Hero = () => {
 
-  
-
   return (
     <div className="hero-section py-5 position-relative">
-      <div className="particals position-absolute">
+      <div className="particals-section position-absolute">
         <Particals />
       </div>
-      <div className="container">
+      <div className="container position-relative ">
         <div className="row pt-5">
           <div className="col-md-6 col-12">
             <div className="hero-content text-white pt-5">

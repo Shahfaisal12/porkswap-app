@@ -132,7 +132,7 @@ const Particals = () => {
               "image": "",
               "position": "50% 50%",
               "repeat": "no-repeat",
-              "size": "contain"
+              "size": "cover",
             }
           }}
         />

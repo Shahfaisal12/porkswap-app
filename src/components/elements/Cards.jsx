@@ -35,7 +35,7 @@ const cardData = [{
 
 const Cards = () => {
     return (
-        <div className="cards-section py-5">
+        <div className="cards-section py-5 position-relative">
             <div className="container">
                 <div className="row">
                     {

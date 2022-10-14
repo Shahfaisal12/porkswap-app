@@ -12,7 +12,7 @@ const Utilities = () => {
         image: 'https://porkswap.finance/assets/images/u2.png',
         title: 'Incentives',
         content: 'Liquidity providers will be incentivized in $PSWAP for their participation in spot and leverage liquidity pools, and LP tokens can be staked for ARR of around 125%.'
-      
+
     }, {
         id: '3',
         image: 'https://porkswap.finance/assets/images/u3.png',
@@ -20,14 +20,14 @@ const Utilities = () => {
         content: 'With a fixed supply of 1 million tokens, and only 200,000 in circulation, $PSWAP token will increase in value overtime since it will be scarce and the team will buy back and burn tokens from platform revenue generated through spot and futures trading.'
     },]
 
-  return (
-    <div className="Utalities py-5" style={{backgroundColor:'#f3f7fa'}}>
-        <div className="container">
-            <div className="row mb-5">
-                <h1 className='fw-bold text-center'>$PSWAP <span className='text-danger'>Utilities</span></h1>
-            </div>
-            <div className="row">
-            {
+    return (
+        <div className="Utalities py-5" style={{ backgroundColor: '#f3f7fa' }}>
+            <div className="container">
+                <div className="row mb-5">
+                    <h1 className='fw-bold text-center'>$PSWAP <span className='text-danger'>Utilities</span></h1>
+                </div>
+                <div className="row">
+                    {
                         cardData.map((cardItem) => {
 
                             return (
@@ -39,6 +39,7 @@ const Utilities = () => {
                                         <div className="card-body">
                                             <h5 class="card-title fw-bold">{cardItem.title}</h5>
                                             <p className="card-text">{cardItem.content}</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -46,10 +47,10 @@ const Utilities = () => {
 
                         })
                     }
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Utilities

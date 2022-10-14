@@ -46,28 +46,26 @@
 ///////////////////////////     HEADER SECTIONS     ///////////////////////////////////////
 
 .header-section {
+  z-index: 123;
   ul li {
     a {
       color: #ffffff !important;
       font-weight: 600;
     }
   }
-}
 
-.navbar {
-  background-color: transparent;
-}
-
-.navbar.colorChange {
-  background-color: #000;
-}
-
-@media only screen and (max-width: 600px) {
-  .collapse {
-        background-color: #12436b;
-        padding: 10px;
+  @media only screen and (max-width: 600px) {
+    .navbar {
+          background-color: #113F65;
+        }
       }
-    }
+}
+
+// .navbar-bg {
+//   background-color: #000;
+// }
+
+
 
 
 ///////////////////////////////////   HERO SECTION       /////////////////////////////////
@@ -84,6 +82,7 @@
   background-image: url("https://porkswap.finance/assets/images/bgs/Section-31.png");
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 5;
 
   .mycard:nth-child(even) {
     box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 10%) !important;
@@ -243,6 +242,7 @@
       }
     }
   }
+ 
 }
 
 ///////////////////////////  FAQS SECTION  ///////////////////////////////////@at-root
